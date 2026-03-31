@@ -99,11 +99,14 @@ section {
   width: 200px;
   padding: 20px;
   background: #111;
-  border: 1px solid #00f0ff33;
+  border: 1px solid #00a2ff33;
 }
 
 .card span {
   color: #00f0ff;
+}
+.card span1 {
+  color: #ff0000;
 }
 
 /* Кнопка в JOIN */
@@ -123,11 +126,42 @@ section {
   transform: scale(1.1);
 }
 h2.no-gap {
-    margin-top: 0;      /* Убирает внешний отступ сверху */
-    margin-bottom: 5px; /* Оставляет маленький отступ снизу */
+    margin-top: 0;      
+    margin-bottom: 5px; 
 }
 
-/* Опционально: убираем отступ снизу у предыдущего параграфа */
+
 p {
-    margin-bottom: 0;   /* Чтобы текст вплотную прижался к заголовку */
+    margin-bottom: 0;  
+} 
+img {                
+    max-width: 100%;                
+    height: auto;  
+}
+.team-logo {
+    width: 80px; /* Задай размер, чтобы фото не было на весь экран */
+    
+    /* Сдвиг: 50px вправо, 100px вниз */
+    transform: translate(-25px, -20px); 
+    
+    /* Если хочешь, чтобы картинка была плавной при изменениях */
+    transition: 0.5s; 
+}
+.team-asc {
+    width: 80px; /* Задай размер, чтобы фото не было на весь экран */
+    
+    /* Сдвиг: 50px вправо, 100px вниз */
+    transform: translate(-610px, 0px); 
+    
+    /* Если хочешь, чтобы картинка была плавной при изменениях */
+    transition: 0.5s; 
+}
+.team-cs2 {
+    width: 200px; /* Задай размер, чтобы фото не было на весь экран */
+    
+    /* Сдвиг: 50px вправо, 100px вниз */
+    transform: translate(-1px, 0px); 
+    
+    /* Если хочешь, чтобы картинка была плавной при изменениях */
+    transition: 0.5s; 
 }
