@@ -161,7 +161,7 @@ const teamsData = [
       { name: "yuny", photo: "primus.jpg" },
       { name: "hyp3rs", photo: "primus.jpg" }
     ],
-    playersString: "ggg · blessed  · kurofamegod · Gordon Freeman · swok1nz" // Для превью
+    playersString: "ggg · novaprospekt · kuro · yuny · hyp3rs" // Для превью
   },
                 { 
     rank: "#12", 
