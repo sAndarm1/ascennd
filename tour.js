@@ -156,10 +156,10 @@ const teamsData = [
     // Список конкретных игроков с их фото
     playersList: [
       { name: "ggg", photo: "primus.jpg" },
-      { name: "blessed", photo: "primus.jpg" },
-      { name: "kurofamegod", photo: "primus.jpg" },
-      { name: "Gordon Freeman", photo: "primus.jpg" },
-      { name: "swok1nz", photo: "primus.jpg" }
+      { name: "novaprospekt", photo: "primus.jpg" },
+      { name: "kuro", photo: "primus.jpg" },
+      { name: "yuny", photo: "primus.jpg" },
+      { name: "hyp3rs", photo: "primus.jpg" }
     ],
     playersString: "ggg · blessed  · kurofamegod · Gordon Freeman · swok1nz" // Для превью
   },
