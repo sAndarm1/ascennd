@@ -113,34 +113,30 @@ header { display: flex; justify-content: center; padding: 40px 20px; }
 .hltv-wrapper {
   margin-bottom: 15px; /* Расстояние между таблицами */
 }
+/* Настройки для телефонов (ширина меньше 768px) */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 40px; /* Уменьшаем заголовок, чтобы не вылезал */
-    letter-spacing: 2px;
-  }
-
-  .logo {
-    font-size: 40px; /* Уменьшаем логотип в шапке */
-  }
-
-  .card, .cardjr {
-    width: 45%; /* На телефоне карточки будут по 2 в ряд */
-    min-width: 140px;
+    font-size: 42px; /* Уменьшаем огромный шрифт заголовка */
   }
   
-  section {
-    padding: 40px 10px; /* Уменьшаем отступы секций */
+  .logo {
+    font-size: 40px; /* Уменьшаем логотип */
+  }
+
+  /* Карточки игроков: делаем их по 2 в ряд на телефоне */
+  .card, .cardjr {
+    width: calc(50% - 20px); /* 50% ширины минус отступы */
+    min-width: 140px;
+  }
+
+  .team-cs2 {
+    width: 150px; /* Уменьшаем картинку CS2 */
   }
 }
 
-/* Если экран совсем маленький (вертикальный телефон) */
+/* Для совсем узких экранов (меньше 480px) */
 @media (max-width: 480px) {
   .card, .cardjr {
-    width: 90%; /* Карточки будут по одной на весь экран */
-  }
-}
-@media (max-width: 600px) {
-  body {
-    background: red !important; /* Фон станет красным на узком экране */
+    width: 100%; /* Карточки встают по одной в ряд (на всю ширину) */
   }
 }
