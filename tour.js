@@ -10,9 +10,9 @@ const teamsData = [
       { name: "w1nkqq", photo: "glory.jpg" },
       { name: "Samarka", photo: "glory.jpg" },
       { name: "Danzl", photo: "glory.jpg" },
-      { name: "phantom", photo: "glory.jpg" }
+      { name: "karasek", photo: "glory.jpg" }
     ],
-    playersString: "akka · w1nkqq · Samarka · Danzl · phantom" // Для превью
+    playersString: "akka · w1nkqq · Samarka · Danzl · karasek" // Для превью
   },
   { 
     rank: "#2", 
