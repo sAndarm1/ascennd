@@ -65,13 +65,13 @@ const teamsData = [
     points: "3", 
     // Список конкретных игроков с их фото
     playersList: [
-      { name: "sanj1xx", photo: "logo.jpg" },
+      { name: "flew", photo: "logo.jpg" },
       { name: "Shavrizy", photo: "logo.jpg" },
-      { name: "SHADOW", photo: "logo.jpg" },
+      { name: "Only", photo: "logo.jpg" },
       { name: "Saadiks", photo: "logo.jpg" },
       { name: "Silentium", photo: "logo.jpg" }
     ],
-    playersString: "sanj1xx · Shavrizy  · SHADOW · Saadiks · Silentium" // Для превью
+    playersString: "flew · Shavrizy  · Only · Saadiks · Silentium" // Для превью
   },
       { 
     rank: "#6", 
