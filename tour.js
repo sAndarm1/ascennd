@@ -10,9 +10,9 @@ const teamsData = [
       { name: "w1nkqq", photo: "glory.jpg" },
       { name: "Samarka", photo: "glory.jpg" },
       { name: "Danzl", photo: "glory.jpg" },
-      { name: "karasek", photo: "glory.jpg" }
+      { name: "phantom", photo: "glory.jpg" }
     ],
-    playersString: "akka · w1nkqq · Samarka · Danzl · karasek" // Для превью
+    playersString: "akka · w1nkqq · Samarka · Danzl · phantom" // Для превью
   },
   { 
     rank: "#2", 
@@ -43,8 +43,23 @@ const teamsData = [
     ],
     playersString: "dextrometrophan · 4yzi · _sk____ · pauops · wuthename" // Для превью
   },
-    { 
+        { 
     rank: "#4", 
+    name: "ASC3NND JR", 
+    logo: "ascJr.jpg", 
+    points: "6", 
+    // Список конкретных игроков с их фото
+    playersList: [
+      { name: "sAndarm", photo: "ascJr.jpg" },
+      { name: "hayzen", photo: "ascJr.jpg" },
+      { name: "akaza666", photo: "ascJr.jpg" },
+      { name: "kW4ss1¿¿¿", photo: "ascJr.jpg" },
+      { name: "n1ght", photo: "ascJr.jpg" }
+    ],
+    playersString: "sAndarm · hayzen · akaza666 · kW4ss1¿¿¿ · n1ght" // Для превью
+  },
+    { 
+    rank: "#5", 
     name: "MonteX eSports", 
     logo: "montex.jpg", 
     points: "6", 
@@ -59,7 +74,7 @@ const teamsData = [
     playersString: "fl1p · ReiZ0 · s0uzee · defriSS · KAsum1" // Для превью
   },
                       { 
-    rank: "#5", 
+    rank: "#6", 
     name: "ASC3NND", 
     logo: "logo.jpg", 
     points: "3", 
@@ -74,7 +89,7 @@ const teamsData = [
     playersString: "flew · Shavrizy  · Only · Saadiks · Silentium" // Для превью
   },
       { 
-    rank: "#6", 
+    rank: "#7", 
     name: "BAKY TEAM", 
     logo: "baky.jpg", 
     points: "3", 
@@ -89,7 +104,7 @@ const teamsData = [
     playersString: "Uv1e0 · PLAYCH1K · pahanzon1zxc · Breiz24 · dracarys999" // Для превью
   },
               { 
-    rank: "#7", 
+    rank: "#8", 
     name: "/w! Team", 
     logo: "w.PNG", 
     points: "3", 
@@ -102,21 +117,6 @@ const teamsData = [
       { name: "S1mon", photo: "w.PNG" }
     ],
     playersString: "Mr_penis · Beluguga · SSTARIXX · Kwumpy · S1mon" // Для превью
-  },
-      { 
-    rank: "#8", 
-    name: "ASC3NND JR", 
-    logo: "ascJr.jpg", 
-    points: "3", 
-    // Список конкретных игроков с их фото
-    playersList: [
-      { name: "sAndarm", photo: "ascJr.jpg" },
-      { name: "hayzen", photo: "ascJr.jpg" },
-      { name: "akaza666", photo: "ascJr.jpg" },
-      { name: "kW4ss1¿¿¿", photo: "ascJr.jpg" },
-      { name: "n1ght", photo: "ascJr.jpg" }
-    ],
-    playersString: "sAndarm · hayzen · akaza666 · kW4ss1¿¿¿ · n1ght" // Для превью
   },
         { 
     rank: "#9", 
