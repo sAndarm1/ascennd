@@ -139,3 +139,8 @@ header { display: flex; justify-content: center; padding: 40px 20px; }
     width: 90%; /* Карточки будут по одной на весь экран */
   }
 }
+@media (max-width: 600px) {
+  body {
+    background: red !important; /* Фон станет красным на узком экране */
+  }
+}
