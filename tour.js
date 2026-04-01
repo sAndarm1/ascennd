@@ -156,7 +156,7 @@ const teamsData = [
     // Список конкретных игроков с их фото
     playersList: [
       { name: "ggg", photo: "primus.jpg" },
-      { name: "novaprospekt", photo: "primus.jpg" },
+      { name: "novaprospekt ", photo: "primus.jpg" },
       { name: "kuro", photo: "primus.jpg" },
       { name: "yuny", photo: "primus.jpg" },
       { name: "hyp3rs", photo: "primus.jpg" }
