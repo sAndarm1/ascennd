@@ -44,22 +44,8 @@ const teamsData = [
     ],
     playersString: "Uv1e0 · PLAYCH1K · pahanzon1zxc · Breiz24 · dracarys999" // Для превью
   },
-  { 
-    rank: "#4", 
-    name: "Vanters Junoir", 
-    logo: "VantersJr.jpg", 
-    points: "6", 
-    playersList: [
-      { name: "fr0st", photo: "VantersJr.jpg" },
-      { name: "WeGerz", photo: "VantersJr.jpg" },
-      { name: "Lunya", photo: "VantersJr.jpg" },
-      { name: "Xsif", photo: "VantersJr.jpg" },
-      { name: "Smok", photo: "VantersJr.jpg" }
-    ],
-    playersString: "fr0st · WeGerz · Lunya · Xsif · Smok"
-  },
         { 
-    rank: "#5", 
+    rank: "#4", 
     name: "ASC3NND JR", 
     logo: "ascJr.jpg", 
     points: "6", 
@@ -72,6 +58,20 @@ const teamsData = [
       { name: "n1ght", photo: "ascJr.jpg" }
     ],
     playersString: "sAndarm · hayzen · akaza666 · kW4ss1¿¿¿ · n1ght" // Для превью
+  },
+        { 
+    rank: "#5", 
+    name: "Vanters Junoir", 
+    logo: "VantersJr.jpg", 
+    points: "6", 
+    playersList: [
+      { name: "fr0st", photo: "VantersJr.jpg" },
+      { name: "WeGerz", photo: "VantersJr.jpg" },
+      { name: "Lunya", photo: "VantersJr.jpg" },
+      { name: "Xsif", photo: "VantersJr.jpg" },
+      { name: "Smok", photo: "VantersJr.jpg" }
+    ],
+    playersString: "fr0st · WeGerz · Lunya · Xsif · Smok"
   },
                 { 
     rank: "#6", 
