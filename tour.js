@@ -12,7 +12,7 @@ const teamsData = [
       { name: "hearteater", photo: "phantom.jpg" },
       { name: "wuthename", photo: "phantom.jpg" }
     ],
-    playersString: "dextrometrophan · 4yzi · _sk____ · pauops · wuthename" // Для превью
+    playersString: "dextrometrophan · 4yzi · _sk____ · hearteater · wuthename" // Для превью
   },
   { 
     rank: "#2", 
