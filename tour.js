@@ -1,6 +1,21 @@
 const teamsData = [
-  { 
+      { 
     rank: "#1", 
+    name: "Team Phantom", 
+    logo: "phantom.jpg", 
+    points: "9", 
+    // Список конкретных игроков с их фото
+    playersList: [
+      { name: "dextrometrophan", photo: "phantom.jpg" },
+      { name: "4yzi", photo: "phantom.jpg" },
+      { name: "_sk____", photo: "phantom.jpg" },
+      { name: "pauops", photo: "phantom.jpg" },
+      { name: "wuthename", photo: "phantom.jpg" }
+    ],
+    playersString: "dextrometrophan · 4yzi · _sk____ · pauops · wuthename" // Для превью
+  },
+  { 
+    rank: "#2", 
     name: "GLORY TEAM", 
     logo: "glory.jpg", 
     points: "9", 
@@ -14,8 +29,23 @@ const teamsData = [
     ],
     playersString: "akka · w1nkqq · Samarka · Danzl · phantom" // Для превью
   },
+        { 
+    rank: "#3", 
+    name: "BAKY TEAM", 
+    logo: "baky.jpg", 
+    points: "6", 
+    // Список конкретных игроков с их фото
+    playersList: [
+      { name: "Uv1e0", photo: "baky.jpg" },
+      { name: "PLAYCH1K", photo: "baky.jpg" },
+      { name: "pahanzon1zxc", photo: "baky.jpg" },
+      { name: "Breiz24", photo: "baky.jpg" },
+      { name: "dracarys999", photo: "baky.jpg" }
+    ],
+    playersString: "Uv1e0 · PLAYCH1K · pahanzon1zxc · Breiz24 · dracarys999" // Для превью
+  },
   { 
-    rank: "#2", 
+    rank: "#4", 
     name: "Vanters Junoir", 
     logo: "VantersJr.jpg", 
     points: "6", 
@@ -28,23 +58,8 @@ const teamsData = [
     ],
     playersString: "fr0st · WeGerz · Lunya · Xsif · Smok"
   },
-    { 
-    rank: "#3", 
-    name: "Team Phantom", 
-    logo: "phantom.jpg", 
-    points: "6", 
-    // Список конкретных игроков с их фото
-    playersList: [
-      { name: "dextrometrophan", photo: "phantom.jpg" },
-      { name: "4yzi", photo: "phantom.jpg" },
-      { name: "_sk____", photo: "phantom.jpg" },
-      { name: "pauops", photo: "phantom.jpg" },
-      { name: "wuthename", photo: "phantom.jpg" }
-    ],
-    playersString: "dextrometrophan · 4yzi · _sk____ · pauops · wuthename" // Для превью
-  },
         { 
-    rank: "#4", 
+    rank: "#5", 
     name: "ASC3NND JR", 
     logo: "ascJr.jpg", 
     points: "6", 
@@ -58,8 +73,23 @@ const teamsData = [
     ],
     playersString: "sAndarm · hayzen · akaza666 · kW4ss1¿¿¿ · n1ght" // Для превью
   },
+                { 
+    rank: "#6", 
+    name: "/w! Team", 
+    logo: "w.PNG", 
+    points: "6", 
+    // Список конкретных игроков с их фото
+    playersList: [
+      { name: "Mr_penis", photo: "w.PNG" },
+      { name: "Beluguga", photo: "w.PNG" },
+      { name: "SSTARIXX", photo: "w.PNG" },
+      { name: "Kwumpy", photo: "w.PNG" },
+      { name: "S1mon", photo: "w.PNG" }
+    ],
+    playersString: "Mr_penis · Beluguga · SSTARIXX · Kwumpy · S1mon" // Для превью
+  },
     { 
-    rank: "#5", 
+    rank: "#7", 
     name: "MonteX eSports", 
     logo: "montex.jpg", 
     points: "6", 
@@ -73,8 +103,23 @@ const teamsData = [
     ],
     playersString: "fl1p · ReiZ0 · s0uzee · defriSS · KAsum1" // Для превью
   },
+                  { 
+    rank: "#8", 
+    name: "Urinal Guys", 
+    logo: "ug.jpg", 
+    points: "6", 
+    // Список конкретных игроков с их фото
+    playersList: [
+      { name: "Amreik", photo: "ug.jpg" },
+      { name: "loki ", photo: "ug.jpg" },
+      { name: "Agent228", photo: "ug.jpg" },
+      { name: "Китаец ", photo: "ug.jpg" },
+      { name: "raidmp5kill", photo: "ug.jpg" }
+    ],
+    playersString: "Amreik · loki · Agent228 · Китаец  · raidmp5kill" // Для превью
+  },
                       { 
-    rank: "#6", 
+    rank: "#9", 
     name: "ASC3NND", 
     logo: "logo.jpg", 
     points: "3", 
@@ -88,38 +133,23 @@ const teamsData = [
     ],
     playersString: "flew · Shavrizy  · Only · Saadiks · Silentium" // Для превью
   },
-      { 
-    rank: "#7", 
-    name: "BAKY TEAM", 
-    logo: "baky.jpg", 
+                    { 
+    rank: "#10", 
+    name: "BCW Team", 
+    logo: "bcw.jpg", 
     points: "3", 
     // Список конкретных игроков с их фото
     playersList: [
-      { name: "Uv1e0", photo: "baky.jpg" },
-      { name: "PLAYCH1K", photo: "baky.jpg" },
-      { name: "pahanzon1zxc", photo: "baky.jpg" },
-      { name: "Breiz24", photo: "baky.jpg" },
-      { name: "dracarys999", photo: "baky.jpg" }
+      { name: "sanya_vozduhan", photo: "bcw.jpg" },
+      { name: "eliv1o", photo: "bcw.jpg" },
+      { name: "vutian", photo: "bcw.jpg" },
+      { name: "xellkkkttt", photo: "bcw.jpg" },
+      { name: "rinex", photo: "bcw.jpg" }
     ],
-    playersString: "Uv1e0 · PLAYCH1K · pahanzon1zxc · Breiz24 · dracarys999" // Для превью
-  },
-              { 
-    rank: "#8", 
-    name: "/w! Team", 
-    logo: "w.PNG", 
-    points: "3", 
-    // Список конкретных игроков с их фото
-    playersList: [
-      { name: "Mr_penis", photo: "w.PNG" },
-      { name: "Beluguga", photo: "w.PNG" },
-      { name: "SSTARIXX", photo: "w.PNG" },
-      { name: "Kwumpy", photo: "w.PNG" },
-      { name: "S1mon", photo: "w.PNG" }
-    ],
-    playersString: "Mr_penis · Beluguga · SSTARIXX · Kwumpy · S1mon" // Для превью
+    playersString: "sanya_vozduhan · eliv1o · vutian · xellkkkttt  · rinex" // Для превью
   },
         { 
-    rank: "#9", 
+    rank: "#11", 
     name: "Silvers Academy", 
     logo: "teamSil.jpg", 
     points: "3", 
@@ -134,7 +164,7 @@ const teamsData = [
     playersString: "byshine · 76561199488950069 · Guzzy · gili3cs · B1ndo" // Для превью
   },
           { 
-    rank: "#10", 
+    rank: "#12", 
     name: "Raven Crew", 
     logo: "raven.jpg", 
     points: "3", 
@@ -149,7 +179,7 @@ const teamsData = [
     playersString: "Hinote · BOBR · KaiNix · R9ewSy · KAYNIX" // Для превью
   },
                     { 
-    rank: "#11", 
+    rank: "#13", 
     name: "Team Primus", 
     logo: "primus.jpg", 
     points: "3", 
@@ -162,37 +192,6 @@ const teamsData = [
       { name: "hyp3rs", photo: "primus.jpg" }
     ],
     playersString: "ggg · novaprospekt · kuro · yuny · hyp3rs" // Для превью
-  },
-                { 
-    rank: "#12", 
-    name: "Urinal Guys", 
-    logo: "ug.jpg", 
-    points: "3", 
-    // Список конкретных игроков с их фото
-    playersList: [
-      { name: "Amreik", photo: "ug.jpg" },
-      { name: "loki ", photo: "ug.jpg" },
-      { name: "Agent228", photo: "ug.jpg" },
-      { name: "Китаец ", photo: "ug.jpg" },
-      { name: "raidmp5kill", photo: "ug.jpg" }
-    ],
-    playersString: "Amreik · loki · Agent228 · Китаец  · raidmp5kill" // Для превью
-  },
-
-                  { 
-    rank: "#13", 
-    name: "BCW Team", 
-    logo: "bcw.jpg", 
-    points: "0", 
-    // Список конкретных игроков с их фото
-    playersList: [
-      { name: "sanya_vozduhan", photo: "bcw.jpg" },
-      { name: "eliv1o", photo: "bcw.jpg" },
-      { name: "vutian", photo: "bcw.jpg" },
-      { name: "xellkkkttt", photo: "bcw.jpg" },
-      { name: "rinex", photo: "bcw.jpg" }
-    ],
-    playersString: "sanya_vozduhan · eliv1o · vutian · xellkkkttt  · rinex" // Для превью
   },
                 { 
     rank: "#14", 
