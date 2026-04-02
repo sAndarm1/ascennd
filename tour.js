@@ -9,7 +9,7 @@ const teamsData = [
       { name: "dextrometrophan", photo: "phantom.jpg" },
       { name: "4yzi", photo: "phantom.jpg" },
       { name: "_sk____", photo: "phantom.jpg" },
-      { name: "pauops", photo: "phantom.jpg" },
+      { name: "hearteater", photo: "phantom.jpg" },
       { name: "wuthename", photo: "phantom.jpg" }
     ],
     playersString: "dextrometrophan · 4yzi · _sk____ · pauops · wuthename" // Для превью
